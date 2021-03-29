@@ -9,7 +9,7 @@ as development dependencies.
 
 ```
 npm install https://github.com/Dootrix/prettier-config -D
-npx install-peerdeps @wolfiezero/prettier-config --D
+npx install-peerdeps @dootrix/prettier-config --D
 ```
 
 Then add the following line to your package.json file.
