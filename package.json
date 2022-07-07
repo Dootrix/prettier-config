@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Sharable config for Prettier",
   "main": ".prettierrc.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": {
     "name": "Neil Sweeney",
     "email": "neil.sweeney@dootrix.com",
