@@ -8,8 +8,7 @@ Install this config then run [install-peerdeps][ipeerdeps] to get dependencies
 as development dependencies.
 
 ```
-npm install https://github.com/Dootrix/prettier-config -D
-npx install-peerdeps @dootrix/prettier-config --D
+npm install -D @dootrix/prettier-config
 ```
 
 Then add the following line to your package.json file.
