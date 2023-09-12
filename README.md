@@ -4,10 +4,9 @@ Sharable config for [Prettier][prettier]
 
 ## Installation
 
-Install this config then run [install-peerdeps][ipeerdeps] to get dependencies
-as development dependencies.
+Install the package
 
-```
+```shell
 npm install -D @dootrix/prettier-config
 ```
 
@@ -36,8 +35,8 @@ module.exports = {
 ## VSCode User?
 
 Make sure you have [Prettier extention][prettiervscode] installed and add the
-following into the project's settings file (`/.vscode/settings.json`) (deleting
-as appropriate).
+following into the project's settings file (`/.vscode/settings.json`)
+(adding/deleting as appropriate).
 
 ```json
 {
@@ -61,4 +60,3 @@ as appropriate).
 [prettier]: https://prettier.io/
 [prettieroptions]: https://prettier.io/docs/en/options.html
 [prettiervscode]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-[ipeerdeps]: https://www.npmjs.com/package/install-peerdeps
