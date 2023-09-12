@@ -1,6 +1,6 @@
 {
   "name": "@dootrix/prettier-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Sharable config for Prettier",
   "homepage": "https://github.com/Dootrix/prettier-config/blob/main/README.md",
   "engines": {
