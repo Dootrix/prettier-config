@@ -2,24 +2,35 @@
   "name": "@dootrix/prettier-config",
   "version": "0.1.0",
   "description": "Sharable config for Prettier",
-  "main": ".prettierrc.js",
-  "publishConfig": {
-    "access": "public"
+  "homepage": "https://github.com/Dootrix/prettier-config/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/Dootrix/prettier-config/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dootrix/prettier-config.git"
+  },
+  "license": "ISC",
   "author": {
     "name": "Neil Sweeney",
     "email": "neil.sweeney@dootrix.com",
     "url": "https://wolfiezero.com"
   },
-  "np": {
-    "tests": false
-  },
-  "license": "ISC",
-  "peerDependencies": {
-    "prettier": "^2.2.1"
+  "main": ".prettierrc.js",
+  "scripts": {
+    "release": "np"
   },
   "devDependencies": {
-    "np": "^7.6.2",
-    "prettier": "^2.2.1"
+    "np": "^8.0.4",
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "np": {
+    "tests": false
   }
 }
